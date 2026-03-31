@@ -1,10 +1,13 @@
 # Turystyka Budapesztu
+<img alt="Widok Budapeszt" src="https://images.immediate.co.uk/production/volatile/sites/63/2024/08/budapeszt-ebf4aff.jpeg" width="700" align="middle">
+
 ## Zabytki
 - Parlament – jeden z największych i najpiękniejszych budynków w Europie
 - Zamek Królewski na Wzgórzu Zamkowym
 - Most Łańcuchowy łączący Budę i Peszt
 - Baszta Rybacka z pięknym widokiem na miasto
 - Bazylika św. Stefana – największy kościół w Budapeszcie
+
 ## Baza gastronomiczna
 - Tradycyjne potrawy Węgry są sycące i aromatyczne, często doprawiane papryką
 - gulasz – gęsta zupa lub potrawka z mięsa i warzyw
