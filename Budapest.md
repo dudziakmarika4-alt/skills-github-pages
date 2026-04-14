@@ -1,7 +1,8 @@
 # Turystyka Budapesztu
 <img alt="Widok Budapeszt" src="https://images.immediate.co.uk/production/volatile/sites/63/2024/08/budapeszt-ebf4aff.jpeg" width="700" align="middle">
 
-## Zabytki
+
+## Zabytki body 
 - Parlament – jeden z największych i najpiękniejszych budynków w Europie
 - Zamek Królewski na Wzgórzu Zamkowym
 - Most Łańcuchowy łączący Budę i Peszt
