@@ -1,28 +1,172 @@
-# Turystyka Budapesztu
-<img alt="Widok Budapeszt" src="https://images.immediate.co.uk/production/volatile/sites/63/2024/08/budapeszt-ebf4aff.jpeg" width="700" align="middle">
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budapeszt – Blog turystyczny</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
+<header>
+  <h1>Budapeszt – blog turystyczny</h1>
+  <nav>
+    <ul>
+      <li><a href="index.html">Strona główna</a></li>
+      <li><a href="atrakcje.html">Atrakcje</a></li>
+      <li><a href="transport.html">Transport</a></li>
+      <li><a href="dostepnosc.html">Dostępność</a></li>
+      <li><a href="kontakt.html">Kontakt</a></li>
+    </ul>
+  </nav>
+</header>
 
-## Zabytki body 
-- Parlament – jeden z największych i najpiękniejszych budynków w Europie
-- Zamek Królewski na Wzgórzu Zamkowym
-- Most Łańcuchowy łączący Budę i Peszt
-- Baszta Rybacka z pięknym widokiem na miasto
-- Bazylika św. Stefana – największy kościół w Budapeszcie
+<main>
+  <section>
+    <h2>Witaj w Budapeszcie</h2>
+    <p>Blog turystyczny poświęcony jednemu z najpiękniejszych miast Europy.</p>
+    <img src="assets/images/budapeszt.jpg" alt="Panorama Budapesztu z Dunajem">
+  </section>
 
-## Baza gastronomiczna
-- Tradycyjne potrawy Węgry są sycące i aromatyczne, często doprawiane papryką
-- gulasz – gęsta zupa lub potrawka z mięsa i warzyw
-- langosz – smażone ciasto podawane z serem, śmietaną lub czosnkiem
-- leczo – danie z papryki, pomidorów i kiełbasy
-- Popularne są także zupy, dania mięsne i słodkie desery
-## Baza noclegowa
-- Baza noclegowa Budapeszt jest dobrze rozwinięta i dostosowana do różnych budżetów
-- Dostępne są luksusowe hotele, tańsze hostele oraz apartamenty do wynajęcia
-- Wiele obiektów znajduje się w centrum miasta, blisko atrakcji turystycznych
-- Popularne są także klimatyczne pensjonaty i nowoczesne obiekty butikowe
-## Transport
-- Transport w Budapeszt jest dobrze rozwinięty i wygodny
-- Miasto posiada metro, tramwaje, autobusy oraz trolejbusy
-- Popularne są także rowery miejskie i spacery po centrum
-- Przez miasto przepływa Dunaj, po którym kursują statki i tramwaje wodne
+  <section>
+    <h2>Dlaczego Budapeszt?</h2>
+    <ul>
+      <li>Piękna architektura</li>
+      <li>Termalne kąpieliska</li>
+      <li>Bogata historia</li>
+    </ul>
+  </section>
+</main>
 
+<footer>
+  <p>© 2026 Blog turystyczny</p>
+</footer>
+
+</body>
+</html>
+
+<!-- STYLE CSS -->
+
+/* assets/css/style.css */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #000000;
+  line-height: 1.6;
+}
+
+header {
+  background-color: #003366;
+  color: white;
+  padding: 15px;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 15px;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+}
+
+nav a:focus {
+  outline: 3px solid yellow;
+}
+
+section {
+  padding: 20px;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Tryb wysokiego kontrastu */
+.high-contrast {
+  background-color: black;
+  color: yellow;
+}
+
+/* RESPONSYWNOŚĆ */
+@media (max-width: 600px) {
+  nav ul {
+    flex-direction: column;
+  }
+}
+
+<main>
+  <section>
+    <h2>Najważniejsze atrakcje</h2>
+
+    <article>
+      <h3>Parlament</h3>
+      <p>Jeden z największych budynków parlamentu na świecie.</p>
+    </article>
+
+    <article>
+      <h3>Most Łańcuchowy</h3>
+      <p>Symbol miasta łączący Budę i Peszt.</p>
+    </article>
+
+    <article>
+      <h3>Baseny termalne</h3>
+      <p>Popularne kąpieliska jak Széchenyi.</p>
+    </article>
+
+  </section>
+</main>
+
+<main>
+  <section>
+    <h2>Transport w Budapeszcie</h2>
+
+    <ul>
+      <li>Metro (łatwe w użyciu)</li>
+      <li>Tramwaje (dostępne dla osób z niepełnosprawnościami)</li>
+      <li>Autobusy</li>
+    </ul>
+
+  </section>
+</main>
+
+<main>
+  <section>
+    <h2>Dostępność strony</h2>
+
+    <ul>
+      <li>Wysoki kontrast kolorów</li>
+      <li>Teksty alternatywne dla obrazów</li>
+      <li>Nawigacja klawiaturą</li>
+      <li>Semantyczny HTML</li>
+      <li>Widoczny fokus</li>
+    </ul>
+
+  </section>
+</main>
+
+<main>
+  <section>
+    <h2>Kontakt</h2>
+
+    <form>
+      <label for=\"name\">Imię:</label>
+      <input id=\"name\" type=\"text\">
+
+      <label for=\"email\">Email:</label>
+      <input id=\"email\" type=\"email\">
+
+      <button type=\"submit\">Wyślij</button>
+    </form>
+
+  </section>
+</main>
