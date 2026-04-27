@@ -1,29 +1,167 @@
-<header>
-<h1>Budapeszt – blog turystyczny</h1>
-  <img alt="Widok Budapeszt" src="https://images.immediate.co.uk/production/volatile/sites/63/2024/08/budapeszt-ebf4aff.jpeg" width="1500" align="middle">
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Budapeszt – kompletny przewodnik turystyczny. Odkryj atrakcje, transport, gastronomię i noclegi w stolicy Węgier.">
+  <title>Budapeszt – Blog Turystyczny</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-<nav>
-<ul>
-<li><a href="index.html">Strona główna</a></li>
-<li><a href="atrakcje.html">Atrakcje</a></li>
-<li><a href="transport.html">Transport</a></li>
-<li><a href="baza gastronomiczna i noclegowa.html">Baza gastronomiczna i noclegowa</a></li>
-<li><a href="kontakt.html">Kontakt</a></li>
-</ul>
-</nav>
-</header>
+  <a href="#tresc-glowna" class="pomin-nawigacje">Przejdź do treści głównej</a>
 
-<main>
-<section>
-<h2>Witaj w Budapeszcie</h2>
-<p>Przewodnik po jednym z najpiękniejszych miast Europy.</p>
-</section>
-</main>
+  <header>
+    <div class="naglowek-wewnetrzny">
+      <a href="index.html" class="logo-strony" aria-label="Budapeszt – strona główna">
+        <span class="ikona" aria-hidden="true">🏛️</span>
+        Budapeszt
+      </a>
+      <nav aria-label="Główna nawigacja">
+        <ul role="list">
+          <li><a href="index.html" aria-current="page">Strona główna</a></li>
+          <li><a href="atrakcje.html">Atrakcje</a></li>
+          <li><a href="transport.html">Transport</a></li>
+          <li><a href="baza gastronomiczna i noclegowa.html">Gastronomia i noclegi</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<footer>
-<p>© 2026</p>
-</footer>
+  <section class="hero" aria-label="Zdjęcie Budapesztu" style="background-image: url('assets/images/hero-budapeszt.jpeg')">
+    <div class="hero-tresc">
+      <h1>Odkryj Budapeszt</h1>
+      <p>Perła Dunaju – miasto historii, term i niezapomnianej architektury</p>
+      <a href="#o-miescie" class="przycisk-hero">Poznaj miasto ↓</a>
+    </div>
+  </section>
+
+  <main id="tresc-glowna">
+
+    <div class="kolor-pasek" aria-hidden="true"></div>
+
+    <section class="sekcja-powitalna" id="o-miescie" aria-labelledby="tytul-powitanie">
+      <h2 id="tytul-powitanie">Witaj w Budapeszcie!</h2>
+      <p>
+        Budapeszt – stolica Węgier i jedno z najpiękniejszych miast Europy Środkowej –
+        zachwyca swoją architekturą, bogatą historią i niezwykłą atmosferą. Podzielone
+        Dunajem miasto łączy dwie różne dzielnice: historyczną Budę ze wzgórzami i zamkiem
+        oraz tętniący życiem Peszt z secesyjnymi kamienicami i ruin barami.
+      </p>
+      <br>
+      <p>
+        To idealne miejsce dla miłośników historii, kultury, dobrego jedzenia oraz relaksu
+        w słynnych kąpieliskach termalnych. Ten blog to Twój kompletny przewodnik po stolicy Węgier.
+      </p>
+    </section>
+
+    <section aria-labelledby="tytul-ciekawostki">
+      <h2 id="tytul-ciekawostki">⭐ Dlaczego warto odwiedzić Budapeszt?</h2>
+      <ul class="lista-ciekawostek" role="list">
+        <li>Wyjątkowa architektura – neogotycki Parlament, barokowe kościoły i secesyjne kamienice</li>
+        <li>Naturalne źródła termalne – ponad 100 gorących źródeł i słynne kąpieliska</li>
+        <li>Panoramiczne widoki – z Wzgórza Gellérta i Baszty Rybackiej</li>
+        <li>Historyczny Most Łańcuchowy – symbol jedności Budy i Pesztu</li>
+        <li>Tętniące życiem nocne centrum – ruin bary i festiwale kulturalne</li>
+        <li>Doskonała kuchnia węgierska – gulasz, lángos i słynne wina tokajskie</li>
+        <li>Świetna dostępność – rozbudowana sieć metra, tramwajów i autobusów</li>
+      </ul>
+    </section>
+
+    <section aria-labelledby="tytul-nawigacja">
+      <h2 id="tytul-nawigacja">🗺️ Odkryj poszczególne sekcje</h2>
+      <div class="siatka-kart" role="list">
+
+        <a href="atrakcje.html" class="karta karta--czerwona" role="listitem" aria-label="Przejdź do strony Atrakcje">
+          <div class="karta-kolor" aria-hidden="true"></div>
+          <div class="karta-tresc">
+            <span class="karta-ikona" aria-hidden="true">🏰</span>
+            <h3>Atrakcje</h3>
+            <p>Parlament, Most Łańcuchowy, kąpieliska termalne i wiele więcej – odkryj najpiękniejsze miejsca Budapesztu.</p>
+          </div>
+        </a>
+
+        <a href="transport.html" class="karta karta--niebieska" role="listitem" aria-label="Przejdź do strony Transport">
+          <div class="karta-kolor" aria-hidden="true"></div>
+          <div class="karta-tresc">
+            <span class="karta-ikona" aria-hidden="true">🚇</span>
+            <h3>Transport</h3>
+            <p>Jak sprawnie poruszać się po mieście? Metro, tramwaje, autobusy i informacje o biletach.</p>
+          </div>
+        </a>
+
+        <a href="baza gastronomiczna i noclegowa.html" class="karta karta--zlota" role="listitem" aria-label="Przejdź do strony Gastronomia i noclegi">
+          <div class="karta-kolor" aria-hidden="true"></div>
+          <div class="karta-tresc">
+            <span class="karta-ikona" aria-hidden="true">🍽️</span>
+            <h3>Gastronomia i noclegi</h3>
+            <p>Tradycyjna kuchnia węgierska, restauracje nad Dunajem, hotele premium i budżetowe hostele.</p>
+          </div>
+        </a>
+
+        <a href="kontakt.html" class="karta karta--zielona" role="listitem" aria-label="Przejdź do strony Kontakt">
+          <div class="karta-kolor" aria-hidden="true"></div>
+          <div class="karta-tresc">
+            <span class="karta-ikona" aria-hidden="true">✉️</span>
+            <h3>Kontakt</h3>
+            <p>Masz pytania lub chcesz podzielić się wrażeniami? Skontaktuj się z nami.</p>
+          </div>
+        </a>
+
+      </div>
+    </section>
+
+    <section aria-labelledby="tytul-szybkie-fakty">
+      <h2 id="tytul-szybkie-fakty">📋 Szybkie fakty o Budapeszcie</h2>
+      <article>
+        <h3>Podstawowe informacje</h3>
+        <ul class="lista-ciekawostek" role="list">
+          <li><strong>Kraj:</strong> Węgry</li>
+          <li><strong>Waluta:</strong> Forint węgierski (HUF)</li>
+          <li><strong>Język:</strong> Węgierski (Magyar)</li>
+          <li><strong>Strefa czasowa:</strong> CET / CEST (UTC+1 / UTC+2)</li>
+          <li><strong>Populacja:</strong> ok. 1,7 mln mieszkańców</li>
+          <li><strong>Lotnisko:</strong> Budapeszt-Liszt Ferenc (BUD), 20 km od centrum</li>
+          <li><strong>Najlepszy czas na wizytę:</strong> maj–czerwiec oraz wrzesień–październik</li>
+        </ul>
+        <br>
+        <div>
+          <span class="odznaka odznaka--czerwona">Dziedzictwo UNESCO</span>
+          <span class="odznaka odznaka--zlota">Europejska stolica kultury</span>
+          <span class="odznaka odznaka--zielona">Termy i uzdrowiska</span>
+          <span class="odznaka odznaka--niebieska">Architektura neogotyku</span>
+        </div>
+      </article>
+    </section>
+
+  </main>
+
+  <footer>
+    <div class="stopka-wewnetrzna">
+      <div class="stopka-kolumna">
+        <h3>Nawigacja</h3>
+        <ul role="list">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="atrakcje.html">Atrakcje</a></li>
+          <li><a href="transport.html">Transport</a></li>
+          <li><a href="baza gastronomiczna i noclegowa.html">Gastronomia i noclegi</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="stopka-kolumna">
+        <h3>O projekcie</h3>
+        <p>Blog turystyczny poświęcony Budapesztowi – stolicy Węgier. Projekt zaliczeniowy z Dostępności Serwisów Internetowych, kierunek Turystyka i Rekreacja, rok akademicki 2025/2026.</p>
+      </div>
+      <div class="stopka-kolumna">
+        <h3>Dostępność</h3>
+        <p>Serwis zaprojektowany z myślą o dostępności dla wszystkich użytkowników, zgodnie z wytycznymi WCAG 2.1 poziom AA.</p>
+      </div>
+    </div>
+    <div class="stopka-dolna">
+      <p>2026 Budapeszt – Blog Turystyczny | Projekt zaliczeniowy, Turystyka i Rekreacja V rok</p>
+    </div>
+  </footer>
 
 </body>
 </html>
-

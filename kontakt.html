@@ -1,23 +1,229 @@
-<main>
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Skontaktuj się z redakcją bloga o Budapeszcie – formularz kontaktowy, informacje o projekcie i autorach.">
+  <title>Kontakt – Blog Turystyczny Budapeszt</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
 
-<section>
-<h2>Kontakt</h2>
-<p>Jeśli masz pytania dotyczące Budapesztu lub chcesz podzielić się swoimi doświadczeniami, skontaktuj się z nami za pomocą formularza.</p>
-</section>
+  <a href="#tresc-glowna" class="pomin-nawigacje">Przejdź do treści głównej</a>
 
-<form>
+  <header>
+    <div class="naglowek-wewnetrzny">
+      <a href="index.html" class="logo-strony" aria-label="Budapeszt – strona główna">
+        <span class="ikona" aria-hidden="true">🏛️</span>
+        Budapeszt
+      </a>
+      <nav aria-label="Główna nawigacja">
+        <ul role="list">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="atrakcje.html">Atrakcje</a></li>
+          <li><a href="transport.html">Transport</a></li>
+          <li><a href="baza gastronomiczna i noclegowa.html">Gastronomia i noclegi</a></li>
+          <li><a href="kontakt.html" aria-current="page">Kontakt</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-<label for="name">Imię:</label>
-<input id="name" type="text" required>
+  <div class="naglowek-podstrony">
+    <h1>✉️ Kontakt</h1>
+    <p class="podtytul">Masz pytania? Chętnie odpiszemy!</p>
+  </div>
 
-<label for="email">Email:</label>
-<input id="email" type="email" required>
+  <main id="tresc-glowna">
 
-<label for="msg">Wiadomość:</label>
-<textarea id="msg" rows="5"></textarea>
+    <div class="kolor-pasek" aria-hidden="true"></div>
 
-<button type="submit">Wyślij</button>
+    <div class="kontakt-siatka">
 
-</form>
+      <section aria-labelledby="tytul-formularz">
+        <div class="kontener-formularz">
+          <h2 id="tytul-formularz">Napisz do nas</h2>
+          <p>Jeśli masz pytania dotyczące Budapesztu, chcesz podzielić się swoimi doświadczeniami lub zgłosić błąd, wypełnij poniższy formularz. Postaramy się odpowiedzieć jak najszybciej.</p>
 
-</main>
+          <form action="#" method="post" aria-label="Formularz kontaktowy" novalidate>
+
+            <div class="grupa-formularza">
+              <label for="imie">
+                Imię i nazwisko
+                <span class="wymagany-znacznik" aria-hidden="true">*</span>
+              </label>
+              <input
+                id="imie"
+                name="imie"
+                type="text"
+                autocomplete="name"
+                required
+                aria-required="true"
+                placeholder="np. Jan Kowalski"
+              >
+            </div>
+
+            <div class="grupa-formularza">
+              <label for="email">
+                Adres e-mail
+                <span class="wymagany-znacznik" aria-hidden="true">*</span>
+              </label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                required
+                aria-required="true"
+                placeholder="twoj@email.pl"
+              >
+            </div>
+
+            <div class="grupa-formularza">
+              <label for="temat">Temat wiadomości</label>
+              <select id="temat" name="temat">
+                <option value="">– wybierz temat –</option>
+                <option value="pytanie">Pytanie o Budapeszt</option>
+                <option value="atrakcje">Atrakcje turystyczne</option>
+                <option value="transport">Transport i dojazd</option>
+                <option value="noclegi">Gastronomia i noclegi</option>
+                <option value="blad">Zgłoszenie błędu</option>
+                <option value="inne">Inne</option>
+              </select>
+            </div>
+
+            <div class="grupa-formularza">
+              <label for="wiadomosc">
+                Wiadomość
+                <span class="wymagany-znacznik" aria-hidden="true">*</span>
+              </label>
+              <textarea
+                id="wiadomosc"
+                name="wiadomosc"
+                required
+                aria-required="true"
+                placeholder="Napisz tutaj swoją wiadomość..."
+                rows="6"
+              ></textarea>
+            </div>
+
+            <p style="font-size:0.85rem;color:#666;margin-bottom:1.2rem;">
+              Pola oznaczone <span class="wymagany-znacznik" aria-label="gwiazdką">*</span> są obowiązkowe.
+            </p>
+
+            <button type="submit" class="przycisk-wyslij">
+              <span aria-hidden="true">✉️</span>
+              Wyślij wiadomość
+            </button>
+
+          </form>
+        </div>
+      </section>
+
+      <aside aria-labelledby="tytul-info-kontakt">
+        <div class="kontakt-info">
+          <h2 id="tytul-info-kontakt">Informacje o projekcie</h2>
+          <ul role="list">
+            <li>
+              <span class="ikona-info" aria-hidden="true">🎓</span>
+              <div>
+                <strong>Projekt zaliczeniowy</strong><br>
+                Dostępność Serwisów Internetowych
+              </div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">📚</span>
+              <div>
+                <strong>Kierunek i rok</strong><br>
+                Turystyka i Rekreacja, V rok
+              </div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">📅</span>
+              <div>
+                <strong>Rok akademicki</strong><br>
+                2025/2026
+              </div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">🌐</span>
+              <div>
+                <strong>Hosting</strong><br>
+                GitHub Pages
+              </div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">💻</span>
+              <div>
+                <strong>Technologie</strong><br>
+                HTML5, CSS3
+              </div>
+            </li>
+          </ul>
+        </div>
+
+        <br>
+
+        <div class="kontakt-info" aria-labelledby="tytul-dostepnosc-info" style="background:#FEF9E7;border-color:#B7950B;">
+          <h2 id="tytul-dostepnosc-info" style="color:#7D6608;">Dostępność serwisu</h2>
+          <ul role="list" style="color:#5D4037;">
+            <li>
+              <span class="ikona-info" aria-hidden="true">🔤</span>
+              <div>Alternatywne opisy wszystkich zdjęć (atrybut alt)</div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">⌨️</span>
+              <div>Pełna obsługa klawiatury i fokus widoczny</div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">🔗</span>
+              <div>Link „Pomiń nawigację" na każdej podstronie</div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">🏷️</span>
+              <div>Semantyczne znaczniki HTML5 i ARIA</div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">🎨</span>
+              <div>Wysoki kontrast kolorów (WCAG AA)</div>
+            </li>
+            <li>
+              <span class="ikona-info" aria-hidden="true">📱</span>
+              <div>Responsywność na urządzeniach mobilnych</div>
+            </li>
+          </ul>
+        </div>
+      </aside>
+
+    </div>
+
+  </main>
+
+  <footer>
+    <div class="stopka-wewnetrzna">
+      <div class="stopka-kolumna">
+        <h3>Nawigacja</h3>
+        <ul role="list">
+          <li><a href="index.html">Strona główna</a></li>
+          <li><a href="atrakcje.html">Atrakcje</a></li>
+          <li><a href="transport.html">Transport</a></li>
+          <li><a href="baza gastronomiczna i noclegowa.html">Gastronomia i noclegi</a></li>
+          <li><a href="kontakt.html">Kontakt</a></li>
+        </ul>
+      </div>
+      <div class="stopka-kolumna">
+        <h3>O projekcie</h3>
+        <p>Blog turystyczny poświęcony Budapesztowi – stolicy Węgier. Projekt zaliczeniowy z Dostępności Serwisów Internetowych, kierunek Turystyka i Rekreacja, rok akademicki 2025/2026.</p>
+      </div>
+      <div class="stopka-kolumna">
+        <h3>Dostępność</h3>
+        <p>Serwis zaprojektowany z myślą o dostępności dla wszystkich użytkowników, zgodnie z wytycznymi WCAG 2.1 poziom AA.</p>
+      </div>
+    </div>
+    <div class="stopka-dolna">
+      <p>2026 Budapeszt – Blog Turystyczny | Projekt zaliczeniowy, Turystyka i Rekreacja V rok</p>
+    </div>
+  </footer>
+
+</body>
+</html>
