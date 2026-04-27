@@ -25,10 +25,6 @@ Projekt polega na stworzeniu serwisu internetowego w formie bloga turystycznego 
 
 Głównym celem technicznym projektu było zaprojektowanie serwisu zgodnie z zasadami **dostępności cyfrowej (WCAG 2.1, poziom AA)**, tak aby mógł być wygodnie używany przez możliwie najszerszą grupę odbiorców – w tym osoby z niepełnosprawnościami wzrokowymi, słuchowymi i ruchowymi.
 
-### Link do strony
-
-> **[https://kyemoon.github.io/skills-github-pages/](https://kyemoon.github.io/skills-github-pages/)**
-
 ### Motywacja
 
 Budapeszt to jedno z najchętniej odwiedzanych miast Europy Środkowej, a mimo to polskojęzycznych, dostępnych cyfrowo przewodników po nim jest niewiele. Projekt łączy dwa cele: stworzenie użytecznego źródła informacji turystycznych oraz demonstrację dobrych praktyk w projektowaniu dostępnych stron internetowych.
